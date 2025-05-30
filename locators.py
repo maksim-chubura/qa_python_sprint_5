@@ -6,7 +6,7 @@ class Locators:
     USER_AVATAR = (By.CSS_SELECTOR, "button.circleSmall")
     MY_PROFILE = (By.XPATH, "//h1[text()='Мой профиль']")
     MY_ADS_HEADER = (By.XPATH, "//h1[text()='Мои объявления']")
-    MY_AD = (By.XPATH, "//h2[contains(@class, 'h2')")
+    MY_AD = (By.XPATH, "//div[contains(@class, 'card')]") 
 
     LOGIN_BUTTON = (By.XPATH, "//button[text()='Войти']")
     LOGOUT_BUTTON = (By.XPATH, "//button[text()='Выйти']")
